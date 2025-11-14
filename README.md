@@ -18,11 +18,11 @@ PyOpenGL - Biblioteca para renderização OpenGL
 GLUT - Gerenciamento de janelas e eventos  
 # Instalação
 Clone o repositório:  
-bash  
+'''  
 git clone <url-do-repositorio>  
 cd morphing-3d  
 Instale as dependências:  
-bash  
+'''  
 pip install PyOpenGL PyOpenGL-accelerate  
 
 # Como Usar
