@@ -5,28 +5,28 @@ Aplicação de morphing entre objetos 3D desenvolvida em Python com OpenGL, que 
 Este projeto implementa um sistema de morphing 3D que carrega dois objetos no formato OBJ e realiza uma interpolação animada entre eles. O sistema utiliza associação de faces baseada em proximidade de centroides para criar transições suaves entre geometrias diferentes.
 
 # Funcionalidades
-Visualização Múltipla: Três janelas simultâneas mostrando o objeto 1, objeto 2 e o morphing
-Animação Automática: Transição suave com 120 frames entre os objetos
-Normalização Automática: Os objetos são centralizados e escalados para melhor visualização
-Iluminação 3D: Sistema de iluminação com componentes ambiente, difusa e especular
-Controle de Câmera: Navegação interativa no ambiente 3D
-Renderização Mista: Visualização com faces preenchidas e wireframe
+Visualização Múltipla: Três janelas simultâneas mostrando o objeto 1, objeto 2 e o morphing  
+Animação Automática: Transição suave com 120 frames entre os objetos  
+Normalização Automática: Os objetos são centralizados e escalados para melhor visualização  
+Iluminação 3D: Sistema de iluminação com componentes ambiente, difusa e especular  
+Controle de Câmera: Navegação interativa no ambiente 3D  
+Renderização Mista: Visualização com faces preenchidas e wireframe  
 
 # Tecnologias
-Python 3.x
-PyOpenGL - Biblioteca para renderização OpenGL
-GLUT - Gerenciamento de janelas e eventos
-📦 Instalação
-Clone o repositório:
-bash
-git clone <url-do-repositorio>
-cd morphing-3d
-Instale as dependências:
-bash
-pip install PyOpenGL PyOpenGL-accelerate
+Python 3.x  
+PyOpenGL - Biblioteca para renderização OpenGL  
+GLUT - Gerenciamento de janelas e eventos  
+# Instalação
+Clone o repositório:  
+bash  
+git clone <url-do-repositorio>  
+cd morphing-3d  
+Instale as dependências:  
+bash  
+pip install PyOpenGL PyOpenGL-accelerate  
 
 # Como Usar
-Execute o programa passando dois arquivos OBJ como argumentos:
+Execute o programa passando dois arquivos OBJ como argumentos:  
 
 bash
 python Main.py objeto1.obj objeto2.obj
